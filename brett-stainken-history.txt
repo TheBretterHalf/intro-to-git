@@ -1,0 +1,83 @@
+    1  ls
+    2  cd intro-to-git/
+    3  ls
+    4  rm hello
+    5  ls
+    6  c9 hello.html
+    7  ls
+    8  man
+    9  man 1
+   10  man 2
+   11  touch mistake
+   12  git add .
+   13  git commit -m "Made a mistake"
+   14  git push -u
+   15  rm mistake
+   16  git add .
+   17  git commit -m "Fixed mistake"
+   18  git push -u
+   19  cd ..
+   20  ls
+   21  rm hello.html
+   22  ls
+   23  cd intro-to-git
+   24  ls
+   25  rm hello.html
+   26  git add .
+   27  git commit -m "Fixed a mistake"
+   28  git push -u
+   29  ..
+   30  4..
+   31  ls
+   32  ..
+   33  cd workspace/
+   34  mkdir 8/28-brett
+   35  cwd
+   36  pwd
+   37  mkdir 8/28-brett
+   38  mkdir 8-28-brett
+   39  mkdir 8-28-stainken
+   40  touch 8-28-brett/myfile.txt 
+   41  ls
+   42  cd 8-28-brett
+   43  ls
+   44  ..
+   45  ls
+   46  vi 8-29-brett/myfile.txt
+   47  ls
+   48  cd 8-28-brett/
+   49  ls
+   50  vi myfile.txt
+   51  cat myfile.txt
+   52  cp myfile.txt workspace/8-28-stainken/my2ndfile.txt
+   53  ..
+   54  cp 8-28-brett/myfile.txt workspace/8-28-stainken/my2ndfile.txt
+   55  cp 8-28-brett/myfile.txt 8-28-stainken/my2ndfile.txt
+   56  ls
+   57  cd 8-28-stainken
+   58  cat my2ndfile.txt
+   59  ..
+   60  ls-l
+   61  ..
+   62  cd workspace
+   63  ls-l
+   64  ls
+   65  ls/etc
+   66  ls /etc
+   67  ls -l my2ndfile.txt
+   68  ls -l 8-28-2018stainken/my2ndfile.txt
+   69  ls
+   70  ls-l 8-28-stainken/my2ndfile.txt
+   71  ls -l 8-28-stainken/my2ndfile.txt
+   72  chmod go+rw 8-28-stainken/my2mdfile.txt
+   73  chmod go+rw 8-28-stainken/my2ndfile.txt
+   74  ls -l
+   75  chmod go-rw 8-28-stainken/my2ndfile.txt
+   76  ls -l
+   77  ls -l 8-28-stainken/my2ndfile.txt
+   78  chmod o+rw 8-28-stainken/my2ndfile.txt
+   79  ls -l 8-28-stainken/my2ndfile.txt
+   80  vi 8-28-stainken/my2ndfile.txt
+   81  ls -r
+   82  history
+   83  history > brett-stainken-history.txt
